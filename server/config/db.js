@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const MONGODB_URI =
-  "mongodb+srv://pradhanmihir17:mihir@cluster0.cor7eni.mongodb.net/notes_db?retryWrites=true&w=majority&appName=Cluster0";
+const MONGODB_URI = "mongodb://localhost:27017/notes_db";
+// "mongodb+srv://pradhanmihir17:mihir@cluster0.cor7eni.mongodb.net/notes_db?retryWrites=true&w=majority&appName=Cluster0";
 
 function connectDB() {
   return mongoose
